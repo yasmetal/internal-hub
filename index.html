@@ -23,6 +23,7 @@
     --card-2-a: #10b981; --card-2-b: #06b6d4;
     --card-3-a: #f59e0b; --card-3-b: #ef4444;
     --card-4-a: #ec4899; --card-4-b: #8b5cf6;
+    --card-5-a: #14b8a6; --card-5-b: #0ea5e9;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -106,7 +107,7 @@
   }
 
   @media (min-width: 900px) {
-    .grid { grid-template-columns: repeat(4, 1fr); gap: 22px; }
+    .grid { grid-template-columns: repeat(3, 1fr); gap: 22px; }
   }
 
   .card {
@@ -167,6 +168,7 @@
   .card-2 { --card-gradient: linear-gradient(135deg, var(--card-2-a), var(--card-2-b)); }
   .card-3 { --card-gradient: linear-gradient(135deg, var(--card-3-a), var(--card-3-b)); }
   .card-4 { --card-gradient: linear-gradient(135deg, var(--card-4-a), var(--card-4-b)); }
+  .card-5 { --card-gradient: linear-gradient(135deg, var(--card-5-a), var(--card-5-b)); }
 
   .icon-wrap {
     width: 52px;
@@ -317,6 +319,18 @@
         </div>
         <div class="card-title">ลางาน</div>
         <div class="card-desc">ยื่นคำขอลาและตรวจสอบสถานะการลา</div>
+        <span class="card-link">เปิดระบบ
+          <svg viewBox="0 0 24 24"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </span>
+      </a>
+
+      <!-- ระบบเก็บใบแจ้งหนี้ -->
+      <a class="card card-5" href="https://bill-ptc-invoice-app-production.up.railway.app/" target="_blank" rel="noopener noreferrer">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
+        </div>
+        <div class="card-title">ระบบเก็บใบแจ้งหนี้</div>
+        <div class="card-desc">จัดเก็บและค้นหาใบแจ้งหนี้ของบริษัท</div>
         <span class="card-link">เปิดระบบ
           <svg viewBox="0 0 24 24"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
         </span>
