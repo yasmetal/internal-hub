@@ -24,6 +24,7 @@
     --card-3-a: #f59e0b; --card-3-b: #ef4444;
     --card-4-a: #ec4899; --card-4-b: #8b5cf6;
     --card-5-a: #14b8a6; --card-5-b: #0ea5e9;
+    --card-6-a: #a855f7; --card-6-b: #06b6d4;
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -169,6 +170,7 @@
   .card-3 { --card-gradient: linear-gradient(135deg, var(--card-3-a), var(--card-3-b)); }
   .card-4 { --card-gradient: linear-gradient(135deg, var(--card-4-a), var(--card-4-b)); }
   .card-5 { --card-gradient: linear-gradient(135deg, var(--card-5-a), var(--card-5-b)); }
+  .card-6 { --card-gradient: linear-gradient(135deg, var(--card-6-a), var(--card-6-b)); }
 
   .icon-wrap {
     width: 52px;
@@ -331,6 +333,18 @@
         </div>
         <div class="card-title">ระบบเก็บใบแจ้งหนี้</div>
         <div class="card-desc">จัดเก็บและค้นหาใบแจ้งหนี้ของบริษัท</div>
+        <span class="card-link">เปิดระบบ
+          <svg viewBox="0 0 24 24"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
+        </span>
+      </a>
+
+      <!-- ระบบเปรียบเทียบข้อมูล Tracking -->
+      <a class="card card-6" href="https://tracking-reconciliation.vercel.app/" target="_blank" rel="noopener noreferrer">
+        <div class="icon-wrap">
+          <svg viewBox="0 0 24 24"><circle cx="18" cy="18" r="3"/><circle cx="6" cy="6" r="3"/><path d="M13 6h3a2 2 0 0 1 2 2v7"/><path d="M11 18H8a2 2 0 0 1-2-2V9"/></svg>
+        </div>
+        <div class="card-title">ระบบเปรียบเทียบข้อมูล Tracking</div>
+        <div class="card-desc">เปรียบเทียบและกระทบยอดข้อมูลการติดตามสินค้า</div>
         <span class="card-link">เปิดระบบ
           <svg viewBox="0 0 24 24"><path d="M7 17L17 7"/><path d="M7 7h10v10"/></svg>
         </span>
