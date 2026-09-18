@@ -32,9 +32,9 @@ Current destinations:
 | card-2 | บันทึกนำเข้า | https://yasmetal.github.io/phattha-import-tracker/ |
 | card-3 | เช็ค Stock สินค้า | https://phattha-stock-web.vercel.app/ |
 | card-4 | ลางาน | https://yasmetal.github.io/Leave_PTC/ |
-| card-5 | ระบบเก็บใบแจ้งหนี้ | https://bill-ptc-invoice-app-production.up.railway.app/ |
+| card-5 | ระบบเก็บใบแจ้งหนี้ | https://bill-ptc-invoice-app.vercel.app/ |
 | card-6 | ระบบเปรียบเทียบข้อมูล Tracking | https://tracking-reconciliation.vercel.app/ |
 
 All six use `target="_blank" rel="noopener noreferrer"` — preserve this when editing, since the whole point of the hub is to hand off to another tab without disturbing this page.
 
-**GitHub identity**: this repo lives under the `yasmetal` GitHub account/org, consistent with the other linked systems (card-5's invoice system is hosted on Railway and card-6's tracking-reconciliation system is on Vercel, instead of GitHub Pages like the rest).
+**GitHub identity**: this repo lives under the `yasmetal` GitHub account/org, consistent with the other linked systems (card-5's invoice system and card-6's tracking-reconciliation system are both hosted on Vercel instead of GitHub Pages like the rest).
